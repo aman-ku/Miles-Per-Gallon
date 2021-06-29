@@ -1,5 +1,6 @@
 # Miles-Per-Gallon
 
+<<<<<<< HEAD
 ## Overview
 In this repository I analyze the Miles per gallon dataset and at last I build ML model to predict MPG value.Following are the process which I performed while dealing with this dataset.
 
@@ -21,3 +22,10 @@ Following step should be follow in order to get the app running
 ## HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
 ![Flight-Fare-Genie](https://raw.githubusercontent.com/ama-ku/Telecom-Customer-Churn/main/images/frontend.JPG)
+=======
+In this repository I analyze the Miles per gallon dataset and at last I build ML model to predict MPG value.Following are the process which I performed while dealing with this dataset.<br/>
+<br/>
+1) Firstly,I performed exploratory data analysis in which I clean the data and get the insights of data by plotting graphs(by using seaborn,matplotlib).<br/>
+2) Secondly,I performed statistcal analysis in which I try to find independencies between categorical features and correlation between numerical variable.<br/>
+3) At last,I did predictive modelling in which I trained various model and at the end chose the best model which fit the data perfectly.<br/>
+>>>>>>> 4b5888eea7932a78820dc8a25a699cb456e941c4
