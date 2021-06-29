@@ -12,11 +12,11 @@ In this repository I analyze the Miles per gallon dataset and at last I build ML
 In making of this project I have used Flask framework for web app.
 Following step should be follow in order to get the app running
 
-1)Clone the repository into your working directory.
+1) Clone the repository into your working directory.
 
-2)Ensure that all the libraries mentioned in the requirement.txt should be installed beforehand.
+2) Ensure that all the libraries mentioned in the requirement.txt should be installed beforehand.
 
-3)At last run app.py and check your localhost(http://127.0.0.1:5000/) to get the web app.
+3) At last run app.py and check your localhost(http://127.0.0.1:5000/) to get the web app.
 
 ## HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
