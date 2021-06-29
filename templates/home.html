@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MPG Predictor</title>
+    <!-- BootStrap -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Miles Per Gallon Predictor</a>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <form action="http://localhost:5000/" method="POST">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group  purple-border">
+                        <label class="label" for="comment">Horsepower</label>
+                        <textarea class="form-control" rows="2" id="query1" name="query1" rows="2" cols="5"autofocus>{{query1}}</textarea>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-6">
+                    <div class="form-group  purple-border">
+                        <label class="label" for="comment">Acceleration</label>
+                        <textarea class="form-control" rows="2" id="query2" name="query2" rows="2" cols="5"autofocus>{{query2}}</textarea>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group  purple-border">
+                        <label class="label" for="comment">Model year</label>
+                        <textarea class="form-control" rows="2" id="query3" name="query3" rows="2" cols="5"autofocus>{{query3}}</textarea>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-6">
+                    <div class="form-group  purple-border">
+                        <label class="label" for="comment">Origin(2:USA,1:Japan,0:Europe)</label>
+                        <textarea class="form-control" rows="2" id="query4" name="query4" rows="2" cols="5"autofocus>{{query4}}</textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+            </div>
+        </form>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-9">
+                <textarea class="form-control" rows="2" id="comment" name="query6" rows="2" cols="5"
+                    autofocus>Miles Per Gallon of the Vehicle is:{{output1}}</textarea>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <p class="aman">©2021 Made with &hearts; by Aman Kumar</p>
+        
+    </div>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
